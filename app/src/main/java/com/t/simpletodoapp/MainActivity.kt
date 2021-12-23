@@ -73,7 +73,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
     // save items by writing them into our data file
     fun saveItems() {
         try {

@@ -48,7 +48,7 @@ class TaskItemAdapter(val listOfItems: List<String>, val longClickListener: OnLo
                 longClickListener.onItemLongClicked(adapterPosition)
                 true
             }
+
         }
     }
-
 }

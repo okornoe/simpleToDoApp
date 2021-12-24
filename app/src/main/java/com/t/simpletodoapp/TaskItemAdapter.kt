@@ -29,6 +29,7 @@ class TaskItemAdapter(val listOfItems: List<String>, val longClickListener: OnLo
     // Involves populating data into the item through holder
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = listOfItems[position]
+
         holder.textView.text = item
     }
 
